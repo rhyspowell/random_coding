@@ -8,3 +8,21 @@ nasm -f elf32 -o myfirst.o myfirst.asm
 ld -o myfirst myfirst.o
 
 ./myfirst
+
+dissassembling
+
+run
+
+ndisasm myfirst
+
+as this dosent know what is elf code and what is data it all looks very confusing.
+
+run
+objdump -d myfirst
+
+produce something similar to what was typed in but this only pickout the code to be run by the cpu but returns that in something called AT&T Syntax
+
+run 
+objdump -d -M intel-mnemonic myfirst
+
+looks much more familiar but it still uses the 0x to denote hexadecimal numbers and replaces labels with numbers to show the exact location of data in the code
