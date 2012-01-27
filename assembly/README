@@ -1,0 +1,10 @@
+This is the basics (get a 32 bit machine)
+
+sudo apt-get install build-essential nasm
+
+to build
+
+nasm -f elf32 -o myfirst.o myfirst.asm
+ld -o myfirst myfirst.o
+
+./myfirst
