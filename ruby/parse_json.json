@@ -1,0 +1,10 @@
+{
+	"person1":{
+		"name":"Peter",
+		"comment":"hello"
+	},
+	"person2":{
+		"name":"Paul",
+		"comment":"alright"
+	}
+}
