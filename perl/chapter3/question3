@@ -1,0 +1,8 @@
+#!/usr/bin/perl
+
+chomp(@lines = <STDIN>);
+@sorted = sort @lines;
+print "@sorted\n";
+
+print "Iput more to get the output on seperate lines";
+print sort <STDIN>;

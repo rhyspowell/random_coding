@@ -1,0 +1,8 @@
+#!/usr/bin/perl
+
+@names = qw(fred betty barney dino wilma pebbles);
+
+chomp(@values= <STDIN>);
+foreach (@values) {
+	print "$names[$_-1]\n";
+}

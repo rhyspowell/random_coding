@@ -1,0 +1,4 @@
+#!/usr/bin/perl
+
+chomp(@lines = <STDIN>);
+print reverse @lines; 
